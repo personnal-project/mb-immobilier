@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acheter un bien</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+                     <!-- Logo -->
+                     <nav class="navbar">
+                        <a href="index.html" class="logo"><span>Sarment</span>Gestion</a>
+                        
+            
+                                <!-- Barre de Navigation -->
+                        <ul>
+                            <li class="first"><a class="ong" href="#finish">Contact</a></li>
+                            <li class="first"><a class="ong" href="Onglet/Formation/formation.html">Formation</a></li>
+                            <li class="first"><a class="ong" href="#" >Vendre un bien</a> 
+                            <li class="first"><a class="ong" href="#" >Acheter un bien</a>
+                                <ul class="sous-m">
+                                    <li><a href="#">Achat dans le neuf</a></li>
+                                    <li><a href="#">Achat dans l'ancien</a></li>
+                                </ul>
+                            </li>
+                            <li class="first"><a class="ong" href="#" >Louer un bien</a>
+                                <ul class="sous-m">
+                                    <li><a href="#">Location dans l'ancien</a></li>
+                                    <li><a href="Onglet\Louer\Louer.html">Location dans le neuf</a></li>
+                                </ul></li>
+                        </ul>
+                    </nav>
+    </header>
+    <main>
+        <div class="send">
+            <H1>Vous souhaitez vendre un de vos bien ?</H1>
+
+            <H3> Remplissez le formulaire ci-dessous nous reprendrons contact avec vous dans les plus bref delais </H3>
+            <div class="send-content">
+               
+                <form method="POST">
+                    <input type="text" name="type" id="type" placeholder="Exemple : Ancien ou neuf" required >
+                    <input type="text" name="surface" id="surface" placeholder="ex : 20m²" required >
+                    <textarea type="text" name="pieces" id="pieces" placeholder="Nombre de pieces" required ></textarea>
+                    <button class="send" type="submit" name="formsend" id="formsend">Envoyer</button>
+                </form>
+                
+            </div>
+        </div>
+</main>
+    
+    
+</body>
+</html>
