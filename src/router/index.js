@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import AreUs from '../views/AreUs.vue'
+import Login from '../views/user/Login.vue'
+import Signin from '../views/user/Signin.vue'
 import AcheterProp from '../views/AcheterProp.vue'
 import LouerProp from '../views/LouerProp.vue'
 import VendreProp from '../views/VendreProp.vue'
@@ -22,6 +24,18 @@ const routes = [
     name: 'areUs', 
     component: AreUs
   },
+  
+  {
+    path: '/se-connecter',
+    name: 'Login', 
+    component: Login
+  },
+
+  {
+    path: '/creer-un-compte',
+    name: 'Signin', 
+    component: Signin
+  },
 
   {
     path: '/achat-prop',
@@ -40,7 +54,6 @@ const routes = [
     name: 'louePropr',
     component: LouerProp
   },
-
 
   {
     path: '/louer',

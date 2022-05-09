@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="user">
-            <i class="bi bi-person-fill"></i>
+            <router-link to="/se-connecter"><i class="bi bi-person-fill"></i></router-link>
         </div>
 
     </header>
@@ -42,6 +42,7 @@
     width: 100%;
     height: 13vh;
     display: flex;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
 }
@@ -56,7 +57,7 @@
 }
 
 .logo a{
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     text-decoration: none;
 }
@@ -72,6 +73,7 @@
     height: 13vh;
     display: flex;
     align-items: center;
+
     justify-content: space-around;
 }
 
@@ -85,6 +87,7 @@
 }
 
 .bar .navBtn a{
+    font-size: 2vh;
     text-decoration: none;
 }
 
